@@ -89,7 +89,7 @@ if ( isset( $_GET[ 'search' ] ) ){
 <div id="searchnavbar" class="nav navbar-default">
     <div class="container">
         <a href="../index.html"><img src="../img/logo.png" width="20%" class="col-lg-2" /></a>
-        <div id="searchable" class="input-group col-lg-8">
+        <div id="searchable" class="input-group col-xs-8 col-sm-8 col-md-8 col-lg-8">
             <form method="get" action="">
                 <input type="text" class="form-control" name="search" value="<?php echo $_GET['search'] ?>">
             </form>
